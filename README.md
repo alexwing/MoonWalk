@@ -1,7 +1,6 @@
 MoonWalk 2.0
 ------------
-Game for Google Cardboard VR, you can explore the lunar surface, shoot, jump and break ground.
-Xbox One Controller
+Game for Samsung Gear VR or Oculus Go, you can explore the lunar surface, shoot, jump and break ground. Xbox One Controller
 
 ## Requirements
 
