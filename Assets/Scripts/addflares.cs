@@ -15,11 +15,15 @@ public class addflares : MonoBehaviour
 
     public void addFlarez()
     {
+        RenderSettings.fog = true;
+
         //rightEye = GameObject.Find("GvrViewerMain Right");
         rightEye.AddComponent<FlareLayer>();
        // leftEye = GameObject.Find("GvrViewerMain Left");
         leftEye.AddComponent<FlareLayer>();
       //  centerEye = GameObject.Find("GvrViewerMain Center");
         centerEye.AddComponent<FlareLayer>();
+
+
     }
 }
