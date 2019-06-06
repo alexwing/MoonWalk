@@ -444,14 +444,14 @@ public class OVRPlayerController : MonoBehaviour
             if (SnapRotation)
             {
 
-                if (OVRInput.Get(OVRInput.Button.PrimaryThumbstickLeft) || Input.GetButton("Left Bumper") || Input.GetKey(KeyCode.Q))
+                if (OVRInput.Get(OVRInput.Button.PrimaryThumbstickLeft) ||  Input.GetKey(KeyCode.Q))
                 {
 
                     euler.y -= RotationRatchet * 0.20f;
 
 
                 }
-                else if (OVRInput.Get(OVRInput.Button.PrimaryThumbstickRight) || Input.GetButton("Right Bumper") || Input.GetKey(KeyCode.E))
+                else if (OVRInput.Get(OVRInput.Button.PrimaryThumbstickRight) || Input.GetKey(KeyCode.E))
                 {
 
                     euler.y += RotationRatchet * 0.20f;

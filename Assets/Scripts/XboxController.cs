@@ -5,6 +5,9 @@ using UnityEngine;
 public class XboxController : MonoBehaviour
 {
 
+
+
+
     //left trigger
     public static float leftTrigger
     {
@@ -13,7 +16,7 @@ public class XboxController : MonoBehaviour
         {
             float returnValue = 0.0f;
             #if !UNITY_ANDROID || UNITY_EDITOR
-                    returnValue =  Input.GetAxis("Left Trigger windows");
+                    returnValue =  Input.GetAxis("Left Trigger");
             #else
                     returnValue =  Input.GetAxis("Left Trigger");
             #endif
@@ -30,7 +33,7 @@ public class XboxController : MonoBehaviour
         {
             float returnValue = 0.0f;
             #if !UNITY_ANDROID || UNITY_EDITOR
-                returnValue = Input.GetAxis("Right Trigger windows");
+                returnValue = Input.GetAxis("Right Trigger");
             #else
                 returnValue =  Input.GetAxis("Right Trigger");
             #endif

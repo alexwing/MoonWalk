@@ -75,7 +75,7 @@ public class EnemysCreator : MonoBehaviour
         {
             if (Input.GetKeyDown(code))
             {
-                if (System.Enum.GetName(typeof(KeyCode), code) == "Joystick1Button6")
+                if (System.Enum.GetName(typeof(KeyCode), code) == "Left Bumper")
                 {
                     destroyEnemys();
                     if (enemyNumber>1)
