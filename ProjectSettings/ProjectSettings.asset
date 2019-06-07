@@ -774,12 +774,13 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.1
   apiCompatibilityLevel: 2
-  cloudProjectId: 0aebb45c-d10f-4fbf-b3c5-622ad18bbed5
-  projectName: VRSample
-  organizationId: yu1l
+  cloudProjectId: 7f9a1e6e-f471-4708-b279-ba3b4532d9fe
+  projectName: MoonWalkVR
+  organizationId: alejandro-aranda
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
